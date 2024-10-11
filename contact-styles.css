@@ -1,0 +1,156 @@
+:root {
+    --primary-color: #4a90e2;
+    --secondary-color: #f0f4f8;
+    --text-color: #333;
+    --background-color: #ffffff;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+.contact-form {
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3a7bc8;
+}
+
+.social-links {
+    margin-top: 2rem;
+}
+
+.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.instagram-link:hover {
+    color: var(--primary-color);
+}
+
+.instagram-link svg {
+    margin-right: 0.5rem;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+}
+
+footer nav ul li {
+    margin: 0 1rem;
+}
+
+footer nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+footer .instagram-link {
+    color: var(--text-color);
+    transition: color 0.3s ease;
+}
+
+footer .instagram-link:hover {
+    color: var(--primary-color);
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+}
